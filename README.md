@@ -1,18 +1,20 @@
-[![CI Status](http://img.shields.io/travis/NickAger/aerogear-diffmatchpatch-ios.svg?style=flat)](https://travis-ci.org/NickAger/aerogear-diffmatchpatch-ios)
-[![Version](https://img.shields.io/cocoapods/v/DiffMatchPatch.svg?style=flat)](http://cocoapods.org/pods/DiffMatchPatch)
-[![License](https://img.shields.io/cocoapods/l/DiffMatchPatch.svg?style=flat)](http://cocoapods.org/pods/DiffMatchPatch)
-[![Platform](https://img.shields.io/cocoapods/p/DiffMatchPatch.svg?style=flat)](http://cocoapods.org/pods/DiffMatchPatch)
-
-
 # DiffMatchPatch for iOS / MacOSX
+
+![Maintenance](https://img.shields.io/maintenance/yes/2017.svg)
+[![circle-ci](https://img.shields.io/circleci/project/github/aerogear/aerogear-ios-diffmatchpatch/master.svg)](https://circleci.com/gh/aerogear/aerogear-ios-diffmatchpatch)
+[![License](https://img.shields.io/badge/-Apache%202.0-blue.svg)](https://opensource.org/s/Apache-2.0)
+[![GitHub release](https://img.shields.io/github/release/aerogear/aerogear-ios-diffmatchpatch.svg)](https://github.com/aerogear/aerogear-ios-diffmatchpatch/releases)
+[![CocoaPods](https://img.shields.io/cocoapods/v/DiffMatchPatch.svg)](https://cocoapods.org/pods/DiffMatchPatch)
+[![Platform](https://img.shields.io/cocoapods/p/DiffMatchPatch.svg)](https://cocoapods.org/pods/DiffMatchPatch)
+
 The project is a fork of [google-diff-match-patch](https://github.com/JanX2/google-diff-match-patch)
-with modifications to get it to compile for iOS / MacOSX and Xcode 6.0
+with modifications to get it to compile for iOS / MacOSX and Xcode 9
 
 The speed test target and schema were removed to save time figuring out some issues but might
 later on.
 
 ## Prerequisites
-This project requires Xcode6.0 to run.
+This project requires Xcode 9.0 to run.
 
 ## Building
 
@@ -34,10 +36,10 @@ You can also run test from the command:
     xcodebuild -scheme DiffMatchPatch-OSX  test
 
 
-## Cocoapods
+## CocoaPods
 This project can be made into a [CocoaPods](http://www.cocoapods.org/):
 
-First install the Cocoapods gem by running:
+First install the CocoaPods gem by running:
 
     sudo gem install cocoapods --pre
 
